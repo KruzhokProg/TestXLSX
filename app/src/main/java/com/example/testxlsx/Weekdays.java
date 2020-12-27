@@ -5,29 +5,19 @@ import java.util.List;
 
 public class Weekdays {
     private String weekday;
-//    private Lessons lessons;
-    private List<String> lessons;
+    private List<LessonInfo> lessons;
 
     public Weekdays() {
         lessons = new ArrayList<>();
     }
 
-    public List<String> getLessons() {
+    public List<LessonInfo> getLessons() {
         return lessons;
     }
 
-    public void setLessons(List<String> lessons) {
+    public void setLessons(List<LessonInfo> lessons) {
         this.lessons = lessons;
     }
-
-
-    //    public Lessons getLessons() {
-//        return lessons;
-//    }
-//
-//    public void setLessons(Lessons lessons) {
-//        this.lessons = lessons;
-//    }
 
     public String getWeekday() {
         return weekday;
